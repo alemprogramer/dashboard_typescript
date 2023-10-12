@@ -15,7 +15,7 @@ const BarItemOnSelect = () => {
     </div>
     <div className='flex items-center'>
       <p className='text-[12px] font-medium text-[#9E77ED]'>Clear(1)</p>
-      <div className='px-[15px]'>
+      <div className='px-[8px]'>
         <ArrowDownColor />
 
       </div>

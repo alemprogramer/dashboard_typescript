@@ -1,4 +1,6 @@
 import React from 'react'
+import { Disclosure } from '@headlessui/react'
+import { ChevronUpIcon } from '@heroicons/react/20/solid'
 import BarItems from './sidebarCommon/BarItems'
 import BarInput from './sidebarCommon/BarInput'
 import Search from '../icon/Search'
@@ -49,7 +51,6 @@ const Sidebar = () => {
 
       <div className='flex items-center justify-between bg-white w-[354px] h-[50px] mb-[12px] rounded-lg'>
         <div className='flex'>
-          {/* <img src='' className=''/> */}
           <div className='px-[15px]'>
             <Care />
           </div>
@@ -68,11 +69,14 @@ const Sidebar = () => {
 
       {/* Care Location */}
 
-      <div className='bg-white px-4 py-5 rounded-lg'>
-     <BarItemOnSelect />
+
+
+
+      <div className='bg-white px-3 py-5 rounded-lg'>
+        <BarItemOnSelect />
 
         <div className='text-justify'>
-          <p className='text-[12px] pb-2 font-medium text-[#6D6D6D]'>Location</p>
+          <p className='text-[12px] pb-2  font-medium text-[#6D6D6D]'>Location</p>
           <BarInput />
         </div>
 
@@ -80,15 +84,15 @@ const Sidebar = () => {
 
       {/* Care Schedule */}
 
-      <div  className='bg-white px-4 py-5 rounded-lg my-3'>
-      <BarItemOnSelect />
+      <div className='bg-white px-3 py-5 rounded-lg my-3'>
+        <BarItemOnSelect />
 
         <div className='text-justify'>
           <p className='text-[12px] pb-2 font-medium text-[#6D6D6D]'>Dates</p>
           <div className='mb-2'>
-          <BarInput />
+            <BarInput />
           </div>
-          
+
           <BarInput />
         </div>
 
