@@ -6,7 +6,7 @@ import Dotted from '../assets/icon/Dotted'
 const Pagination = () => {
   return (
     <div>
-    <ul>
+    <ul className='flex items-end'>
       <li>1</li>
       <li>2</li>
       <li>3</li>

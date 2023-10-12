@@ -13,8 +13,11 @@ const Dashboard = () => {
         <Header />
         <div className='grid grid-cols-2'>
             <Sidebar />
-            <div className=''>
+            <div className='px-[80px]'>
                 <SortBy />
+                <UserCard />
+                <UserCard />
+                <UserCard />
                 <UserCard />
                 <Pagination />
             </div>

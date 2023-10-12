@@ -1,11 +1,18 @@
 import React from 'react'
+import Marker from '../../assets/icon/Marker'
 
 
 const BarInput = () => {
   return (
-    <div>
-    <input type='text' className='text-[#667085]' placeholder='' />
-</div>
+    <div className="relative">
+        <input type="text"
+          className="pl-4 py-2 w-[324px] h-[38px] border border-[#9E77ED] text-base rounded-lg "
+          placeholder="Texas, 70123 " />
+        <div className="absolute inset-y-0 right-8 pr-3  
+                    flex items-center ">
+          <Marker />
+        </div>
+      </div>
   )
 }
 
