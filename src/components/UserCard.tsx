@@ -6,9 +6,9 @@ import AddMore from '../icon/AddMore';
 
 const UserCard = () => {
   return (
-    <div className=''>
-    <div className='flex w-[888px] h-[115px] items-center bg-[#EAECF0AD] my-5 rounded-lg' >
-      <img src='/src/assets/img/Avatar.png' className='px-6' />
+    <div className='flex flex-col items-start justify-start gap-5'>
+    <div className='flex w-[888px] items-center bg-[#EAECF0AD] px-4 rounded-lg py-3' >
+      <img src='/img/img.png' className="w-[98px] h-[98px] rounded-full mx-6"/>
       <div className='text-justify'>
         <h3 className='text-xl font-medium'>Andi Lane</h3>
         <div className='flex py-2'>

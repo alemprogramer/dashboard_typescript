@@ -11,7 +11,7 @@ const Dashboard = () => {
     <div className='bg-[#F8F8F8] container'>
   
         <Header />
-        <div className='grid grid-cols-2'>
+        <div className='flex flex-row'>
             <Sidebar />
             <div className='px-[80px]'>
                 <SortBy />

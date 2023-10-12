@@ -24,8 +24,6 @@ const Header:FC = () => {
         <Notification />
 
         <button onClick={()=>{}} type='button' className='flex gap-3 justify-start items-center'>
-          {/* <img src={Avatar} /> */}
-
           <img className="w-[32px] h-[32px] rounded-full" src={'/img/img.png'} alt=" avatar" />
           <div className='flex flex-col justify-start items-start text-[#000000]'>
             <h4 className=' font-semibold text-sm'>Client Rhye</h4>
