@@ -8,8 +8,8 @@ import SortBy from '../components/SortBy'
 
 const Dashboard = () => {
   return (
-    <div className='bg-[#F8F8F8] max-w-[1440px] mx-auto'>
-    <div className=''>
+    <div className='bg-[#F8F8F8] container'>
+  
         <Header />
         <div className='grid grid-cols-2'>
             <Sidebar />
@@ -22,7 +22,7 @@ const Dashboard = () => {
                 <Pagination />
             </div>
         </div>
-    </div>
+   
 </div>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
-import ArrowDown from '../../assets/icon/ArrowDown'
-import Care from '../../assets/icon/Care'
+import ArrowDown from '../../icon/ArrowDown'
+import Care from '../../icon/Care'
 
 
 

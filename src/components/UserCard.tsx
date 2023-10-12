@@ -1,6 +1,6 @@
 import React from 'react'
-import Review from '../assets/icon/Review'
-import AddMore from '../assets/icon/AddMore';
+import Review from '../icon/Review'
+import AddMore from '../icon/AddMore';
 
 
 

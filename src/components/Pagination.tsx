@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import Dotted from '../assets/icon/Dotted'
+import Dotted from '../icon/Dotted'
 
 
 

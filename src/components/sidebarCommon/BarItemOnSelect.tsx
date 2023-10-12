@@ -1,6 +1,6 @@
 import React from 'react'
-import ArrowDownColor from '../../assets/icon/ArrowDownColor'
-import MarkerPin from '../../assets/icon/MarkerPin'
+import ArrowDownColor from '../../icon/ArrowDownColor'
+import MarkerPin from '../../icon/MarkerPin'
 
 const BarItemOnSelect = () => {
   return (

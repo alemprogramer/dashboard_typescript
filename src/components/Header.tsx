@@ -1,49 +1,37 @@
-import React from 'react'
-import Chat from '../assets/icon/Chat'
-import Notification from '../assets/icon/Notification'
-import Logo from '../assets/icon/Logo'
+import React, { FC } from 'react'
+import Chat from '../icon/Chat'
+import Notification from '../icon/Notification'
+import Logo from '../icon/Logo'
 
 //import Avatar from '../assets/img/Avatar.png'
 
 
-const Header = () => {
+const Header:FC = () => {
   return (
-    <div className='bg-[#FFFFFF] max-w-[1440px] flex items-center  h-[76px] mx-auto'>
-      <div className='pl-[26px]'>
+    <div className='bg-[#FFFFFF] w-full px-7 flex items-center justify-between'>
+
       <Logo />
-      </div>
-      
-      <div className='px-[200px]'>
-        <ul className='flex text-[#475467] font-bold text-base gap-8'>
-          <li className='hover:text-[#7F56D9]'>Home</li>
-          <li className='hover:text-[#7F56D9]'>My visits</li>
-          <li className='hover:text-[#7F56D9]'>My favorites</li>
 
-        </ul>
-
+      <div className='flex text-[#475467] font-bold text-base gap-8 py-7 '>
+        <a href='/' className='hover:text-[#7F56D9]'>Home</a>
+        <a href='/' className='hover:text-[#7F56D9]'>My visits</a>
+        <a href='/' className='hover:text-[#7F56D9]'>My favorites</a>
       </div>
 
-      <div className='flex pl-[180px]'>
+      <div className='flex gap-5 '>
         <Chat />
-        <div className='px-4'>
-          <Notification />
 
-        </div>
+        <Notification />
 
-        <div className='flex items-center'>
+        <button onClick={()=>{}} type='button' className='flex gap-3 justify-start items-center'>
           {/* <img src={Avatar} /> */}
 
-          <img className="w-[32px] h-[32px] rounded-full" src="/src/assets/img/Avatar.png" alt=" avatar" />
-
-
-
-          <div className='text-justify pl-5'>
-            <h4 className='text-[#000000] font-bold text-sm'>Client Rhye</h4>
-            <p>test@caredirect.com</p>
-
-
+          <img className="w-[32px] h-[32px] rounded-full" src={'/img/img.png'} alt=" avatar" />
+          <div className='flex flex-col justify-start items-start text-[#000000]'>
+            <h4 className=' font-semibold text-sm'>Client Rhye</h4>
+            <p className='text-xs text-[#475467]' >test@caredirect.com</p>
           </div>
-        </div>
+        </button>
       </div>
     </div>
   )

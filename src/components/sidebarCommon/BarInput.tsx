@@ -1,5 +1,5 @@
 import React from 'react'
-import Marker from '../../assets/icon/Marker'
+import Marker from '../../icon/Marker'
 
 
 const BarInput = () => {
