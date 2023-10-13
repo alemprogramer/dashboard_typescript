@@ -50,9 +50,9 @@ const Header: FC = () => {
 
       <div className={`duration-500 md:hidden  fixed bg-white top-[70px] w-150 h-screen 
         ${toggle ?
-          'right-[0]'
+          'left-[0]'
           :
-          'right-[-100%]'
+          'left-[-100%]'
           }
         `}>
        

@@ -34,7 +34,7 @@ const Sidebar = () => {
     {
 
       toggle ?
-      <AiOutlineClose onClick={() => setToggle(!toggle)} className='text-black text-2xl m-5 md:hidden block ' />
+      <AiOutlineClose onClick={() => setToggle(!toggle)} className='text-black text-2xl m-5 md:hidden block mb-[38px]' />
       :
       
       <button onClick={() => setToggle(!toggle)}  className='flex md:hidden h-fit bg-white px-[16px] py-[10px] m-5 border border-[#D0D5DD] rounded-lg'>

@@ -13,12 +13,12 @@ const Dashboard = () => {
     <div className='bg-[#F8F8F8] container'>
 
       <Header />
-      <div className='flex flex-row '>
+      <div className='flex md:flex-row '>
      
 
         <Sidebar />
 
-        <div className='px-[80px]'>
+        <div className='md:px-[80px] px-5'>
           <SortBy />
 
           <UserCard />
