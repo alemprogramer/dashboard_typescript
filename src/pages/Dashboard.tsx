@@ -13,7 +13,7 @@ const Dashboard = () => {
     <div className='bg-[#F8F8F8] container'>
 
       <Header />
-      <div className='flex md:flex-row '>
+      <div className='flex md:flex-row lg:flex-row xl:flex-row 2xl:flex-row'>
      
 
         <Sidebar />
