@@ -4,7 +4,7 @@ import MarkerPin from '../../icon/MarkerPin'
 
 const BarItemOnSelect = () => {
   return (
-    <div className='flex items-center justify-between bg-white   mb-[12px] '>
+    <div className='flex items-center justify-between bg-white w-full  mb-[12px] '>
     <div className='flex'>
       <div className='pr-3'>
         <MarkerPin />
@@ -13,7 +13,7 @@ const BarItemOnSelect = () => {
 
       <p className='text-base font-semibold text-[#9E77ED]'>Care Location</p>
     </div>
-    <div className='flex items-center'>
+    <div className='flex items-center md:pt-3'>
       <p className='text-[12px] font-medium text-[#9E77ED]'>Clear(1)</p>
       <div className='px-[8px]'>
         <ArrowDownColor />

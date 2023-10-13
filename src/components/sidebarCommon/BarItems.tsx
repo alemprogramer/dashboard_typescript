@@ -6,7 +6,7 @@ import Care from '../../icon/Care'
 
 const BarItems = () => {
   return (
-    <div className='flex items-center justify-between bg-white w-[354px] h-[50px] mb-[12px] rounded-lg'>
+    <div className='flex items-center justify-between bg-white w-full  py-3 mb-[12px] rounded-lg'>
       <div className='flex'>
           {/* <img src='' className=''/> */}
           <div className='px-[15px]'>

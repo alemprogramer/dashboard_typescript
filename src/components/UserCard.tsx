@@ -8,10 +8,11 @@ import { Rating } from "@material-tailwind/react";
 const UserCard = () => {
   return (
     <div className='flex flex-col md:items-start md:justify-start gap-5'>
-      <div className='flex md:flex-row flex-col md:w-[888px] w-full items-center bg-[#EAECF0AD] hover:bg-[#D6BBFB45] px-4 rounded-lg py-3 hover:border border-[#7F56D9]' >
-        <img src='/img/img.png' className="w-[98px] h-[98px] rounded-full md:mx-6 my-2" />
+      <div className='flex md:flex-row flex-col md:w-[400px] lg:w-[585px] xl:w-[730px] 2xl:w-[888px] w-full items-center bg-[#EAECF0AD] hover:bg-[#D6BBFB45] px-4 rounded-lg py-3 hover:border border-[#7F56D9]' >
 
-        <div className='text-center'>
+        <img src='/img/img.png' className="w-[98px] h-[98px] rounded-full xl:mx-6 md:mx-0 my-2" />
+
+        <div className='md:text-start text-center'>
           <h3 className='text-xl font-medium'>Andi Lane</h3>
 
           <div className='flex md:flex-row flex-col md:py-2 '>

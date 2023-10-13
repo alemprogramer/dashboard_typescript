@@ -12,26 +12,26 @@ const Header: FC = () => {
 
   const [toggle, setToggle] = useState(false)
   return (
-    <div className='bg-[#FFFFFF] w-full px-7 py-4 md:py-0 flex items-center justify-between'>
+    <div className='bg-[#FFFFFF] w-full px-7 py-4 md:py-0 flex items-center justify-between '>
 
       <Logo />
 
       {
         toggle ?
-          <AiOutlineClose onClick={() => setToggle(!toggle)} className='text-black text-2xl md:hidden block' />
+          <AiOutlineClose onClick={() => setToggle(!toggle)} className='text-black text-2xl md:hidden block ' />
           :
-          <AiOutlineMenu onClick={() => setToggle(!toggle)} className='text-black text-2xl md:hidden block' />
+          <AiOutlineMenu onClick={() => setToggle(!toggle)} className='text-black text-2xl md:hidden block ' />
 
       }
+{/* Desktop  */}
 
-
-      <div className='hidden md:flex text-[#475467] font-bold text-base gap-8 py-7 '>
+      <div className='hidden md:flex text-[#475467] font-bold text-base gap-5 lg:gap-8 py-7 '>
         <a href='/' className='hover:text-[#7F56D9]'>Home</a>
         <a href='/' className='hover:text-[#7F56D9]'>My visits</a>
         <a href='/' className='hover:text-[#7F56D9]'>My favorites</a>
       </div>
 
-      <div className='hidden md:flex gap-5 '>
+      <div className='hidden md:flex lg:gap-5 gap-1'>
         <Chat />
 
         <Notification />
@@ -48,11 +48,11 @@ const Header: FC = () => {
 
       {/* Responsive */}
 
-      <div className={`duration-500 md:hidden  fixed bg-white top-[70px] w-150 h-screen 
+      <div className={`duration-500 md:hidden z-50 fixed bg-white top-[70px] w-150 h-screen 
         ${toggle ?
-          'left-[0]'
+          'right-[0]'
           :
-          'left-[-100%]'
+          'right-[-100%]'
           }
         `}>
        
